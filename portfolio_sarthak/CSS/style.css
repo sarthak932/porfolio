@@ -1,0 +1,505 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: #070606;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 90%, 0 100%);
+}
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+header nav .left a{
+color: #F2F2F2;
+text-decoration: none;
+margin-right: 5rem;
+text-transform: uppercase;
+}
+header nav .left a:hover{
+    color: #3DCFD3;
+    transition: all .3s ease;
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left
+{
+    display: flex;
+    align-items: center;
+}
+header nav{
+    padding: 2rem 0;
+}
+header nav .brand
+{
+    margin-right: 17rem;
+    margin-left: -9rem;
+}
+.pic
+{
+    display: flex;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.pic .left img
+{
+    width: 500px;
+    height: 550px;
+    margin-right: 10rem;
+    margin-left: -6rem;
+}
+
+.pic .right
+{
+    color:white;
+    margin-top: -7rem;
+}
+
+.pic .right h5
+{
+    font-size: 1.5rem;
+    color:purple;
+    margin-bottom: 0.6rem;
+}
+
+.pic .right h1
+{
+    font-size: 3.5rem;
+    font-weight: 100;
+    margin-bottom: 1.5rem;
+}
+
+.pic .right h1 span
+{
+    color: #3DCFD3;
+}
+
+.pic .right p
+{
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+.btn
+{
+    padding: 0.8rem 3rem;
+    font-weight: 600;
+    border: 2px solid #3DCFD3;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: -5rem;
+}
+
+.btn-primary
+{
+    background: transparent;
+    color: #3DCFD3;
+}
+
+.btn-primary:hover
+{
+    background: transparent;
+    border-color:yellow;
+    color:yellow;
+}
+section
+{
+    padding: 6rem 15rem;
+}
+.container2
+{
+    display: flex;
+    align-items: center;
+}
+
+.container2 img
+{
+    margin-right: 6rem;
+    width: 100%;
+    padding-right: 50px;
+}
+
+.container2 h1
+{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.container2 span
+{
+    color: red;
+}
+
+.container2 h3
+{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: grey;
+}
+.container2 h3 span
+{
+    color:purple;
+}
+.container2 p
+{
+    font-family: 'Lato', sans-serif;
+    color: grey;
+    line-height: 1.9rem;
+}
+
+section.services
+{
+    background-color: var(--light);
+}
+
+.section-heading
+{
+    color: black;
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5;
+}
+
+.section-heading span
+{
+    color: purple;
+}
+
+.section-heading + p
+{
+    color: gray;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 6rem;
+    text-align: center;
+}
+
+section.services .card-wrapper
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 6rem;
+}
+
+section.services .card-wrapper .card
+{
+    background: white;
+    padding: 3rem 2rem;
+    position: relative;
+    padding-top: 3rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+section.services .card-wrapper .card img
+{
+    position: absolute;
+    top: -2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section.services .card-wrapper .card h2
+{
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+section.services .card-wrapper .card p
+{
+    font-family: 'Lato', sans-serif;
+    color:gray;
+    line-height: 1.6rem;
+}
+
+section.services .card-wrapper .card:hover
+{
+    background: lightslategrey;
+}
+
+section.services .card-wrapper .card:hover h2,section.services .card-wrapper .card:hover p
+{
+    color:white;
+}
+section.contact .container4
+{
+    text-align: center;
+}
+
+section.contact .container4 span
+{
+    color: blueviolet;
+}
+
+section.contact .container4 p
+{
+    font-family: 'Lato', sans-serif;
+    color:lightslategray;
+    padding: 2rem;
+}
+
+section.contact .card-wrapper
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5rem;
+}
+
+section.contact .card-wrapper .card
+{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+section.contact .card-wrapper .card img
+{
+    margin-bottom: 1rem;
+}
+
+section.contact .card-wrapper .card h1
+{
+    font-family: 'Poppins', sans-serif;
+    color: black; 
+}
+
+section.contact .card-wrapper .card h6
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    color: lightslategray;   
+}
+
+.btn-primary2
+{
+    color: black;
+    background:rgb(0, 255, 255);
+    border-color: black;
+    border-radius: 10px;
+    margin-top: 2rem;
+    width: 15rem;
+    margin-left: 400px;
+}
+
+.btn-primary2:hover
+{
+    background: transparent;
+    border-color: lightskyblue;
+    color: lightskyblue;
+}
+
+section.contact .input-wrap
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3rem;
+    margin: 2rem 2rem;
+}
+
+section.contact .input-wrap2
+{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightslategray;
+}
+
+section.contact input
+{
+    padding: 0.5rem;
+    border: 1px solid lightslategray;
+    font-size: 0.9rem;
+}
+
+section.contact .input-wrap2 input
+{
+    margin-bottom: 2rem;
+    border: 1px solid lightslategray;
+    font-size: 0.9rem;
+}
+
+section.contact .input-wrap2 textarea
+{
+    padding: 0.5rem;
+    border: 1px solid lightslategray;
+    font-size: 0.9rem;
+}
+footer
+{
+    background: black;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+footer .footer-logo
+{
+    margin-bottom: 3rem;
+    height: 70px;
+    width: 275x;
+    text-align: center;
+}
+footer .social
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .social a
+{
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    transition: all 0.3s ease;
+    background-color:white;
+    margin-bottom: 3rem;
+    
+}
+
+footer .social a:hover
+{
+    background: skyblue;
+}
+
+.copyright
+{
+    color: gray;
+}
+
+
+@media screen and (max-width:1778px)
+{
+.btn-primary2
+{
+    color: black;
+    background: skyblue;
+    border-color: black;
+    border-radius: 10px;
+    margin-top: 2rem;
+    width: 15rem;
+    margin-left: 500px;
+}
+}
+
+@media screen and (max-width:1285px)
+{   
+    .pic .left img
+{
+    width: 400px;
+    height: 700px;
+    margin-right: 10rem;
+    margin-left: -6rem;
+}
+.btn
+{
+    padding: 0.8rem 3rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: -3rem;
+}   
+}
+
+@media screen and (max-width:1325px)
+{
+    header nav .brand
+{
+    margin-right: 15rem;
+    margin-left: -5rem;
+}
+
+.btn-primary2
+{
+    color: black;
+    background: skyblue;
+    border-color: black;
+    border-radius: 10px;
+    margin-top: 2rem;
+    width: 15rem;
+    margin-left: 330px;
+}
+}
+
+@media screen and (max-width:1220px)
+{
+    .btn
+{
+    padding: 0.8rem 3rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: -2rem;
+}
+
+.btn-primary2
+{
+    color: black;
+    background: skyblue;
+    border-color: black;
+    border-radius: 10px;
+    margin-top: 2rem;
+    width: 15rem;
+    margin-left: 280px;
+}
+}
+
+@media screen and (max-width:1190px)
+{
+    .btn
+{
+    padding: 0.8rem 3rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: -1rem;
+}
+}
+
+@media screen and (max-width:1155px)
+{
+    .btn
+    {
+        padding: 0.8rem 3rem;
+        font-weight: 600;
+        border: 2px solid transparent;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        margin-right: 1rem;
+    }
+    .pic .left img
+    {
+        width: 400px;
+        height: 700px;
+        margin-right: 10rem;
+        margin-left: -4rem;
+    }
+    .pic .right
+{
+    color: white;
+    margin-top: -7rem;
+    margin-left: -5rem;
+}
+
+}
